@@ -2,11 +2,14 @@ var contactModel = require('../models/contact.js'),
 	express = require('express'),
 	router = express.Router(),
 	path = require('path'),
-	kue = require('kue');
+	queue = require('kue');
 
 console.log('['+ __dirname + '/contact.js] okay');
 
-router.post('/contact',function(req,res,next){
+router.post('/', function (req, res, next) {
+  
+  console.log('inside contact route!');
+
 	var formData = req.body;
 	console.log("user form received: ", formData);
 
