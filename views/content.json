@@ -1,0 +1,164 @@
+{
+"masthead":	
+[
+"Every 37 seconds, a business decides it must start creating video",
+"some text",
+"other text",
+"three text",
+"four text",
+"five text",
+"six text",
+"seven text",
+"eight text",
+"nine text"
+],
+"mb1":
+[
+"text-0",
+"text-1",
+"text-2",
+"text-3",
+"text-4",
+"text-5",
+"text-6",
+"text-7",
+"text-8",
+"text-9"
+],
+"mb2":
+[
+"text-0",
+"text-1",
+"text-2",
+"text-3",
+"text-4",
+"text-5",
+"text-6",
+"text-7",
+"text-8",
+"text-9"
+],
+"mb3":
+[
+"text-0",
+"text-1",
+"text-2",
+"text-3",
+"text-4",
+"text-5",
+"text-6",
+"text-7",
+"text-8",
+"text-9"
+],
+"contact":
+[
+"text-0",
+"text-1",
+"text-2",
+"text-3",
+"text-4",
+"text-5",
+"text-6",
+"text-7",
+"text-8",
+"text-9"
+],
+"about":
+[	
+"text-0",
+"text-1",
+"text-2",
+"text-3",
+"text-4",
+"text-5",
+"text-6",
+"text-7",
+"text-8",
+"text-9"
+],
+"footer":
+{
+"name":"Ditt.io",
+"address":"3794 Bret Harte Dr. Redwood City, CA 94061", 
+"terms": "Our Terms"
+},
+"aboutHeadline":
+[
+"About Headline 0",
+"About Headline 1",
+"About Headline 2",
+"About Headline 3",
+"About Headline 4",
+"About Headline 5",
+"About Headline 6",
+"About Headline 7",
+"About Headline 8",
+"About Headline 9"
+],
+"mb1Headline":
+[
+"mb1 Headline 0",
+"mb1 Headline 1",
+"mb1 Headline 2",
+"mb1 Headline 3",
+"mb1 Headline 4",
+"mb1 Headline 5",
+"mb1 Headline 6",
+"mb1 Headline 7",
+"mb1 Headline 8",
+"mb1 Headline 9"
+],
+"mb2Headline":
+[
+"mb2 Headline 0",
+"mb2 Headline 1",
+"mb2 Headline 2",
+"mb2 Headline 3",
+"mb2 Headline 4",
+"mb2 Headline 5",
+"mb2 Headline 6",
+"mb2 Headline 7",
+"mb2 Headline 8",
+"mb2 Headline 9"
+],
+"mb3Headline":
+[
+"mb3 Headline 0",
+"mb3 Headline 1",
+"mb3 Headline 2",
+"mb3 Headline 3",
+"mb3 Headline 4",
+"mb3 Headline 5",
+"mb3 Headline 6",
+"mb3 Headline 7",
+"mb3 Headline 8",
+"mb3 Headline 9"
+],
+"contactHeadline":
+[
+"contact Headline 0",
+"contact Headline 1",
+"contact Headline 2",
+"contact Headline 3",
+"contact Headline 4",
+"contact Headline 5",
+"contact Headline 6",
+"contact Headline 7",
+"contact Headline 8",
+"contact Headline 9"
+],
+"aboutButton":
+[
+"about button 0",
+"about button 1",
+"about button 2",
+"about button 3",
+"about button 4",
+"about button 5",
+"about button 6",
+"about button 7",
+"about button 8",
+"about button 9"
+]
+}
