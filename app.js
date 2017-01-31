@@ -6,7 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var kue = require('kue'), queue = kue.createQueue();
-var redis = require("redis"),  client = redis.createClient();
+var redis = require("redis"),
+  client = redis.createClient();
 
 //redis service start
 client.on('error', function (err) {
@@ -17,9 +18,9 @@ client.on('error', function (err) {
 // var models = require('./models/models');
 var app = express();
 // bring in the routes for implementation in REST routes
-var index = require('./routes/index.js');
+var indexRoute = require('./routes/index.js');
 //var users = require('./routes/users');
-var contact = require('./routes/contact.js');
+var contactRoute = require('./routes/contact.js');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -39,9 +40,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // mongo and mongoose setup lives in models
 
 // REST routes
-app.use('/', index);
+app.use('/', indexRoute);
 //app.use('/users', users);
-app.use('/contact', contact);
+app.use('/contact', contactRoute);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
