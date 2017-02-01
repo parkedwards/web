@@ -22,7 +22,7 @@ router.post('/', function (req, res, next) {
       return res.status(400).end();
     }
     else {
-      console.log('success!');
+      console.log('job added!');
       return res.status(201).end();
     }
   });
