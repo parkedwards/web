@@ -5,7 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
-var kue = require('kue'), queue = kue.createQueue();
+
+var kue = require('kue')  
+const queue = kue.createQueue();
+
 var redis = require("redis"),
   client = redis.createClient();
 
@@ -17,6 +20,9 @@ client.on('error', function (err) {
 // comment out var models and move require to individual models in ./models
 // var models = require('./models/models');
 var app = express();
+
+module.exports = { app, queue }
+
 // bring in the routes for implementation in REST routes
 var indexRoute = require('./routes/index.js');
 //var users = require('./routes/users');
@@ -74,6 +80,3 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
-
-module.exports = app;
