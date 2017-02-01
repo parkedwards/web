@@ -9,13 +9,6 @@ var fs = require('fs');
 var kue = require('kue')  
 const queue = kue.createQueue();
 
-var redis = require("redis"),
-  client = redis.createClient();
-
-//redis service start
-client.on('error', function (err) {
-	    console.log("Error " + err);
-});
 
 // comment out var models and move require to individual models in ./models
 // var models = require('./models/models');
