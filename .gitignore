@@ -3,6 +3,8 @@ npm-debug.log
 .DS_Store
 bundle.js
 
+sendgrid.env
+
 *.swp
 *.swo
 *.swn
