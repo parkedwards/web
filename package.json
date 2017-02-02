@@ -16,6 +16,7 @@
     "mongodb": "~2.1 ",
     "mongoose": "^4.8.1",
     "morgan": "~1.5.1",
+    "redis": "^2.6.5",
     "sendgrid": "^4.7.1",
     "serve-favicon": "~2.2.0"
   },
