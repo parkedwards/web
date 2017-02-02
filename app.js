@@ -9,6 +9,7 @@ var fs = require('fs');
 var kue = require('kue')  
 const queue = kue.createQueue();
 
+const contactProcess = require('./job_consumer/contact');
 
 // comment out var models and move require to individual models in ./models
 // var models = require('./models/models');
