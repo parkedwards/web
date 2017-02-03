@@ -3,7 +3,7 @@ const queue = kue.createQueue();
 
 const helper = require('sendgrid').mail;
 const subject = 'Hello from Ditt.io!';
-
+const apiKey = "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";
 
 module.exports = queue.process('contact', (job, done) => {
   setTimeout(() => {
@@ -12,7 +12,8 @@ module.exports = queue.process('contact', (job, done) => {
     let content = new helper.Content('text/plain', 'Some awesome content here + URL!');
     let mail = new helper.Mail(from_email, subject, to_email, content);
 
-    let sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
+    let sg = require('sendgrid')(apiKey);
+	  console.log("[SENDGRID api key: " + process.env.SENDGRID_API_KEY + "]\n");
 
     let request = sg.emptyRequest({
       method: 'POST',

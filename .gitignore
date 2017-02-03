@@ -8,4 +8,4 @@ sendgrid.env
 *.swp
 *.swo
 *.swn
-*.rdb
+*.rdbsendgrid.env
