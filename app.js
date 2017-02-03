@@ -21,7 +21,7 @@ module.exports = { app, queue }
 var indexRoute = require('./routes/index.js');
 //var users = require('./routes/users');
 var contactRoute = require('./routes/contact.js');
-
+var aboutRoute = require('./routes/about.js');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -43,7 +43,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRoute);
 //app.use('/users', users);
 app.use('/contact', contactRoute);
-
+app.use('/about', aboutRoute);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

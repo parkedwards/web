@@ -1,0 +1,70 @@
+{
+"team":	
+[
+	{"name":"Matt Alecock",
+	"image": "about-matt-alecock",
+	"role": "Product",
+	"text": "Here's my story.",
+	"contact": "matt.alecock@ditt.io",
+	"location": "Redwood City, CA"
+	},
+	{
+	"name": "Jeff Rozic",
+	"image": "about-jeff-rozic",
+	"role": "Marketing",
+	"text": "Here's my story",
+	"contact": "jeff.rozic@ditt.io",
+	"location": "Boulder, CO"
+	},
+	{
+	"name": "Ryan Carey",
+	"image": "about-ryan-carey",
+	"role": "Clients",
+	"text": "Here's my story.",
+	"contact": "ryan.carey@ditt.io",
+	"location": "Brooklyn, NY"
+	},
+	{
+	"name": "Vikram Seshadri",
+	"image": "about-vikram-seshadri",
+	"role": "Engineering",
+	"text": "Here's my story.",
+	"contact": "vikram.seshadri@ditt.io",
+	"location": "Redwood City, CA"
+	},
+	{
+	"name": "Eddie Park",
+	"image": "about-eddie-park",
+	"role": "Engineering",
+	"text": "Here's my story.",
+	"contact": "eddie.park@ditt.io",
+	"location": "Los Angeles, CA"
+	}
+],
+"mission":
+[
+	{"mission":"This is what we do"}
+],
+"about":
+[
+	{"about": "This is our story"}
+],
+"location": 
+[
+	{
+	"cityState": "Redwood City, CA",
+	"image": "location-redwood-city"
+	},
+	{"cityState": "Boulder, CO",
+	"image": "location-boulder"
+	},
+	{
+	"cityState": "Brooklyn, NY",
+	"image": "location-brookly"
+	},
+	{
+	"cityState": "Los Angeles, CA",
+	"image": "location-los-angeles"
+	}
+]
+}
