@@ -22,6 +22,7 @@ var indexRoute = require('./routes/index.js');
 //var users = require('./routes/users');
 var contactRoute = require('./routes/contact.js');
 var aboutRoute = require('./routes/about.js');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
