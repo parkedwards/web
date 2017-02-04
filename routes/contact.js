@@ -25,15 +25,17 @@ router.post('/', function (req, res, next) {
     email,
     url,
     comment,
-  }).save(function (err) {
-    if (err) {
-      console.error(err);
-      return res.status(400).end();
-    }
-    else {
-      console.log('contact form submission added to MQ!');
-    }
-  });
+  })
+    .removeOnComplete(true)
+    .save(function (err) {
+      if (err) {
+        console.error(err);
+        return res.status(400).end();
+      }
+      else {
+        console.log('contact form submission added to MQ!');
+      }
+    });
   // other chainable methods:
   // can also set attempts ( job.attempts() )
   // can also set priority ( job.priority('high') )
